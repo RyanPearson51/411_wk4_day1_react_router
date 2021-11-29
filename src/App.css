@@ -38,3 +38,9 @@ ul {
 .car-paper {
   padding: 50px;
 }
+
+.chip-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
