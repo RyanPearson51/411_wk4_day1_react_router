@@ -1,7 +1,6 @@
 import React from 'react'
 import cars from '../cars.json'
 import {useParams} from 'react-router-dom';
-// import material ui components here //
 import { Container, Paper, Chip } from '@material-ui/core';
 import '../App.css';
 
@@ -11,10 +10,9 @@ import '../App.css';
 
 const Car = (props) => {
     //const paperContainer = useStyles();
-    let carid = useParams()
-    console.log(carid.id)
-    let filteredCar = cars.find(car => car.id === parseInt(carid.id))
-    console.log(filteredCar)
+    let carId = useParams()
+    let filteredCar = cars.find(car => car.id === parseInt(carId.id))
+   
     return (
         <Container className='chip-container'>
             <Paper elevation={5}>

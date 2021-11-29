@@ -10,7 +10,7 @@ Remember to export the component at the end
 
 import React from 'react'
 //import { Switch, Route } from 'react-router'
-import { Routes, Route, Link } from 'react-router-dom';
+import { Routes, Route } from 'react-router-dom';
 import Home from './components/Home';
 import About from './components/About';
 import Car from './components/Car';
